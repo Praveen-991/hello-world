@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the SCM
-                git 'https://github.com/Praveen-991/hello-world.git'
+                git clone 'https://github.com/Praveen-991/hello-world.git'
             }
         }
         
