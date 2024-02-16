@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         // Define Git tool
-        git 'Default'
+        git 'Git'
     }
     stages {
         stage('Checkout') {
