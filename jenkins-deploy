@@ -24,7 +24,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // Example deployment steps (replace with your actual deployment commands)
-                sh "ssh -i C:/Users/Admin/Downloads/Praveen-Test.pem ec2-user@ec2-34-224-28-98.compute-1.amazonaws.com 'cd /home/ec2-user/apache-tomcat-9.0.85/webapps && ./deploy.sh'"
+                sh 'ssh -i Praveen-Test.pem ec2-user@ec2-34-224-28-98.compute-1.amazonaws.com 'cd /home/ec2-user/apache-tomcat-9.0.85/webapps && ./deploy.sh''
         }
     }
 }
