@@ -24,7 +24,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // Example deployment steps (replace with your actual deployment commands)
-                sh 'ssh ec2-user@54.209.45.37 "cd  /home/ec2-user/apache-tomcat-9.0.85/webapps && ./deploy.sh"'
+                sh 'ssh ec2-user@ip-172-31-24-195.ec2.internal "cd  /home/ec2-user/apache-tomcat-9.0.85/webapps && ./deploy.sh"'
             }
         }
     }
