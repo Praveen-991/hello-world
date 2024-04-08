@@ -13,6 +13,9 @@
     <label for="DOB"><b>DOB</b></label>
     <input type="DOB" placeholder="Enter DOB" name="DOB" required>
 
+    <label for="ID"><b>ID</b></label>
+    <input type="ID" placeholder="Enter ID" name="ID" required>
+
     <label>
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
     </label>
